@@ -13,7 +13,7 @@ const server =http.createServer(app);
 //initialize Socket.io server
 const io =new Server (server,{
     cors:{
-        origin:"*",
+        origin:"https://chat-app-seven-flax-48.vercel.app/",
         // methods:["GET","POST","PUT"]
     }
 });
